@@ -69,7 +69,7 @@ export default function Home() {
 				</div>
 				<div className="mx-8 max-w-[993px] w-full">
 					<div>
-						<h1 className="text-center text-[#A08CFF] font-Roboto font-normal">ACHE SEU LUGAR</h1>
+						<h1 className="text-center text-lg text-black font-Roboto font-normal">ACHE SEU LUGAR</h1>
 						<h2 className="mt-4 mx-auto max-w-[647px] text-center text-2xl text-[#121214] font-Roboto font-bold md:text-5xl">
 							Encontre os <span className="text-[#6246EA]">melhores blocos</span> de carnaval de 2023
 						</h2>
@@ -99,23 +99,21 @@ export default function Home() {
 					</div>
 				</div>
 			</div>
-			<div className="my-24 mx-8">
-				<div className="mx-auto max-w-[1216px] w-full">
-					<div className="sm:flex justify-between">
-						<div>
-							<h1 className="text-3xl font-Roboto font-bold">Blocos recomendados</h1>
-						</div>
-						<div className="mt-5 w-[190px] h-12 rounded-lg border-2 border-[#EAEAEA] flex items-center justify-center sm:mt-0">
-							<button onClick={changeMenu} className={`w-[86px] h-8 rounded-md flex items-center justify-center font-Roboto font-bold ${menu === 'MENU' ? 'text-white bg-[#6246EA]' : 'text-[#6246EA]'}`}>
-								MAPA
-							</button>
-							<button onClick={changeMenu} className={`w-[86px] h-8 rounded-md flex items-center justify-center font-Roboto font-bold ${menu === 'LIST' ? 'text-white bg-[#6246EA]' : 'text-[#6246EA]'}`}>
-								LISTA
-							</button>
-						</div>
+			<div className="max-w-[1216px] w-full my-10 mx-auto px-4">
+				<div className="sm:flex justify-between">
+					<div>
+						<h1 className="text-3xl text-center font-Roboto font-bold">Blocos recomendados</h1>
 					</div>
-					<div className="mt-10 grid gap-8 sm:grid-cols-2 lg:grid-cols-3">{filteredEvent ? filteredEvent.map((data, index) => <Card metadata={data} key={index} />) : events.map((data, index) => <Card metadata={data} key={index} />)}</div>
+					<div className="mt-5 w-[190px] h-12 rounded-lg border-2 border-[#EAEAEA] flex items-center justify-center sm:mt-0">
+						<button onClick={changeMenu} className={`w-[86px] h-8 rounded-md flex items-center justify-center font-Roboto font-bold ${menu === 'MENU' ? 'text-white bg-[#6246EA]' : 'text-[#6246EA]'}`}>
+							MAPA
+						</button>
+						<button onClick={changeMenu} className={`w-[86px] h-8 rounded-md flex items-center justify-center font-Roboto font-bold ${menu === 'LIST' ? 'text-white bg-[#6246EA]' : 'text-[#6246EA]'}`}>
+							LISTA
+						</button>
+					</div>
 				</div>
+				<div className="mt-10 grid gap-8 sm:grid-cols-2 lg:grid-cols-3">{filteredEvent ? filteredEvent.map((data, index) => <Card metadata={data} key={index} />) : events.map((data, index) => <Card metadata={data} key={index} />)}</div>
 			</div>
 		</div>
 	);
