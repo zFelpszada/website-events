@@ -2,7 +2,7 @@
 
 ![preview](.github/preview.png)
 
-> Projeto desenvolvido para complementar meu portfólio, conhecimento e habilidade. Caso queria utilizar o mesmo, siga as instruções abaixo:
+> Projeto desenvolvido para complementar meu portfólio, conhecimento e habilidade. Caso queira utilizar o mesmo, siga as instruções abaixo:
 
 ## 💻 Pré-requisitos
 
