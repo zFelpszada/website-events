@@ -3,7 +3,7 @@
 import Image from 'next/image';
 import { VscLocation } from 'react-icons/vsc';
 
-export function Card({ metadata }) {
+export default function Card({ metadata }) {
 	return (
 		<div className="w-full h-full rounded-xl border-2 border-[#EAEAEA] sm:max-w-[384px] sm:max-h-[323px]">
 			<div className="w-full h-[153px] rounded-t-xl relative overflow-hidden">

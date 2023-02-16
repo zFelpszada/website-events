@@ -2,7 +2,7 @@
 
 import NextHead from 'next/head';
 
-export function Head() {
+export default function Head() {
 	return (
 		<NextHead>
 			<title>Desafio 07</title>
