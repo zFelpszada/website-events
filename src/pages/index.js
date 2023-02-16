@@ -2,7 +2,7 @@
 
 import Image from 'next/image';
 import { useRef, useState } from 'react';
-import { Card } from './interface/index.js';
+import { Card } from './components/Card';
 import { VscLocation } from 'react-icons/vsc';
 import { IoIosArrowDown } from 'react-icons/io';
 import { RxMagnifyingGlass } from 'react-icons/rx';
