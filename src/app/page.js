@@ -104,7 +104,7 @@ export default function Home() {
 					<div>
 						<h1 className="text-3xl text-center font-Roboto font-bold">Blocos recomendados</h1>
 					</div>
-					<div className="mt-5 w-[190px] h-12 rounded-lg border-2 border-[#EAEAEA] flex items-center justify-center sm:mt-0">
+					<div className="mt-5 mx-auto w-[190px] h-12 rounded-lg border-2 border-[#EAEAEA] flex items-center justify-center sm:mt-0 sm:mx-0">
 						<button onClick={changeMenu} className={`w-[86px] h-8 rounded-md flex items-center justify-center font-Roboto font-bold ${menu === 'MENU' ? 'text-white bg-[#6246EA]' : 'text-[#6246EA]'}`}>
 							MAPA
 						</button>
