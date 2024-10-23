@@ -19,15 +19,15 @@ export default function Home() {
 	const [filteredEvent, setfilteredEvent] = useState(false);
 
 	const events = [
-		{ title: 'O Python do vovô não sobe mais', subtitle: 'Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.', location: 'São Paulo - SP', image: '/1.webp' },
-		{ title: 'Todo mundo null', subtitle: 'Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.', location: 'Uberlândia - MG', image: '/2.webp' },
-		{ title: 'Hoje dou exception', subtitle: 'Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.', location: 'Curitiba - PR', image: '/3.webp' },
-		{ title: 'Manda Node', subtitle: 'Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.', location: 'Salvador - BA', image: '/4.webp' },
-		{ title: 'Só no back-end', subtitle: 'Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.', location: 'Belo Horizonte - MG', image: '/5.webp' },
-		{ title: 'Esse anel não é de Ruby', subtitle: 'Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.', location: 'Brasília - BSB', image: '/6.webp' },
-		{ title: 'Pimenta no C# dos outros é refresco', subtitle: 'Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.', location: 'Niterói - RJ', image: '/7.webp' },
-		{ title: 'EnCACHE aqui', subtitle: 'Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.', location: 'São Paulo - SP', image: '/8.webp' },
-		{ title: 'Não valho nada mas JAVA li', subtitle: 'Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.', location: 'São Lourenço - MG', image: '/9.webp' }
+		{ title: 'O Python do vovô não sobe mais', subtitle: 'Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.', location: 'São Paulo - SP', image: '/assets/1.webp' },
+		{ title: 'Todo mundo null', subtitle: 'Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.', location: 'Uberlândia - MG', image: '/assets/2.webp' },
+		{ title: 'Hoje dou exception', subtitle: 'Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.', location: 'Curitiba - PR', image: '/assets/3.webp' },
+		{ title: 'Manda Node', subtitle: 'Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.', location: 'Salvador - BA', image: '/assets/4.webp' },
+		{ title: 'Só no back-end', subtitle: 'Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.', location: 'Belo Horizonte - MG', image: '/assets/5.webp' },
+		{ title: 'Esse anel não é de Ruby', subtitle: 'Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.', location: 'Brasília - BSB', image: '/assets/6.webp' },
+		{ title: 'Pimenta no C# dos outros é refresco', subtitle: 'Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.', location: 'Niterói - RJ', image: '/assets/7.webp' },
+		{ title: 'EnCACHE aqui', subtitle: 'Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.', location: 'São Paulo - SP', image: '/assets/8.webp' },
+		{ title: 'Não valho nada mas JAVA li', subtitle: 'Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.', location: 'São Lourenço - MG', image: '/assets/9.webp' }
 	];
 
 	const cities = [
